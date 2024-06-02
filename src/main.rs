@@ -440,7 +440,6 @@ fn clear_screen() {
     print!("\x1B[2J\x1B[1;1H");
 }
 
-
 fn main() {
     let mut game = Board::new();
 
